@@ -15,7 +15,7 @@ void printingLL(CLL *s )
 {   
     if(s==NULL)
      cout<<"Emty";
-    cout<<s->data; 
+    cout<<s->data<<" "; 
     CLL *p=s->next;
     while(p!=s)
     {
